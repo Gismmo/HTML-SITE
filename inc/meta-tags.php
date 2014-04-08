@@ -2,7 +2,6 @@
 <?php  if (!empty($MetaDescription)): ?><meta name="description" content="<?php echo $MetaDescription ?>" /><?php endif; ?>
 <?php  if (!empty($CanonicalUrl)): ?><link rel="canonical" href="<?php echo $CanonicalUrl ?>" /><?php endif; ?>
 
-<meta name="apple-mobile-web-app-capable" content="yes" /><?php // Hiding Safari User Interface */?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="REVISIT-AFTER" CONTENT="7 days" />
 <meta name="ROBOTS" CONTENT="follow,index" />
@@ -11,7 +10,7 @@
 <?php  if (!empty($MetaTitle)): ?><meta property="og:title" content="<?php echo $MetaTitle ?>" /><?php endif; ?>
 <?php  if (!empty($CanonicalUrl)): ?><meta property="og:url" content="<?php echo $CanonicalUrl ?>" /><?php endif; ?>
 <?php  if (!empty($MetaDescription)): ?><meta property="og:description" content="<?php echo $MetaDescription ?>" /><?php endif; ?>
-<meta property="og:site_name" content="Universe Marketplace" />
+<?php // <meta property="og:site_name" content="SITE NAME" /> ?>
 <?php  if (!empty($ThumbnailPath)): ?><meta property="og:image" content="<?php echo $ThumbnailPath ?>" /><?php endif; ?>
 	<?php // Twitter Card ?>
 <meta name="twitter:card" content="summary_large_image" />

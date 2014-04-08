@@ -55,6 +55,11 @@
             <p><a href="#">A Link</a></p>
             <p><sub>Sub</sub>script</p>
             <p><sup>Sup</sup>script</p>
+            <hr/>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-google-plus"></i>
         </article>
     </section>
 </div>
