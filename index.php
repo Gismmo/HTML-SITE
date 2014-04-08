@@ -1,4 +1,14 @@
-<? include("inc/top.php") ?>
+<?php include("inc/top.php") ?>
+<?php 
+	$MetaTitle = "Add the Meta Title";
+	$MetaDescription = "Add Meta Description";
+	$CanonicalUrl = "";
+	$ThumbnailPath = ""; 
+	// if variable empty "" meta tag does not show 
+?>
+<?php include("inc/meta-tags.php") ?>
+</head>
+<body>
 <? include("inc//header.php") ?>
 <? include("inc/nav.php") ?>
 <div class="container">
@@ -48,6 +58,6 @@
         </article>
     </section>
 </div>
-<? include("inc/footer.php") ?>
+<?php include("inc/footer.php") ?>
 </body>
 </html>

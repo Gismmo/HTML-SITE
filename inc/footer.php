@@ -25,10 +25,9 @@
 </div><?php // end .knibbs-inner ?>
 </div><?php // end .knibbs-outer ?>
 <?php // Load Bottom javascript files asynchronously ?>
-<script>
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/hammer.min.js';s.parentNode.insertBefore(g,s)}(document,'script'));
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='<?=$this->getThemePath()?>/js/plugin/jquery.flexmenu.js';s.parentNode.insertBefore(g,s)}(document,'script'));
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='<?=$this->getThemePath()?>/js/main.js';s.parentNode.insertBefore(g,s)}(document,'script'));</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/hammer.min.js"></script>
+<script src="js/plugin/jquery.flexmenu.js"></script>
+<script src="js/main.js"></script>
 <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
 chromium.org/developers/how-tos/chrome-frame-getting-started -->
 <!--[if lt IE 7 ]>

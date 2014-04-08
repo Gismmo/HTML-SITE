@@ -1,3 +1,6 @@
+<div class="knibbs-outer">
+<div class="knibbs-inner">
+<div class="mc">
 <header>
   <div class="container">
     <section class="row">
